@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body {
+    text-shadow: 0px 0px 1px black, 0px 0px 2px white;
+    background-image: linear-gradient(to top, black, red, yellow);
+    margin: 0;
+    height: 1000px;
+    font-family: "Orbitron", sans-serif;
+}
+
+.corpo {
+    margin-left: 15%;
+}
+
+nav {
+    width: 15%;
+    background-image: radial-gradient(yellow, red, black, black, black, black, black);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: center;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+}
+
+nav * {
+    margin: 0;
+}
+
+nav a {
+    height: 70px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+
+nav a:hover {
+    background-image: linear-gradient(to top right, red, yellow);
+    color: white;
+
+}
+
+.logo {
+    text-shadow: 2px 2px 10px black, 3px 3px 5px red;
+    background: orange;
+    color: white;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+}
+
+.titulo {
+    background-image: linear-gradient(to top left, black, red, orange, yellow)
+}
+
+.titulo h2 {
+    text-shadow: 2px 2px 5px red, 2px 2px 15px white;
+    font-size: 45px;
+    margin: 0;
+}
+
+.frase1 {
+    text-shadow: 2px 2px 5px red;
+}
+
+.description p {
+    margin: 0;
+    font-size: 25px;
+}
+
+.click {
+    font-family: lobster;
+    margin: 15px;
+    display: flex;
+    height: 45px;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.click a {
+    background-image: linear-gradient(to bottom, yellow, red);
+    color: black;
+    border-radius: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    align-content: center;
+    height: 100%;
+}
+
+.click a:hover {
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(0, 255, 0), black);
+}
+
+
+.cards {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: row wrap;
+
+}
+
+.cards a {
+    text-decoration: none;
+    font-size: 25px;
+    background: gray;
+    height: 150px;
+    width: 30%;
+}
